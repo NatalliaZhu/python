@@ -78,7 +78,7 @@ profitability = profit//revenue
 if profit > 0:
     print ('Прибыль:', profit)
     print ('Рентабильность', profitability*100)
-    mployees = int(input('Количество сотрудников:'))
+    employees = int(input('Количество сотрудников:'))
     profit_em = profit // employees
     print('Прибыль на одного сотрудника:', profit_em)
 
